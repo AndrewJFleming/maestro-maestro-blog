@@ -1,0 +1,39 @@
+.headerWrapper {
+  margin: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.headerWrapper a:hover {
+  color: #10316b;
+}
+
+.siteAuthor {
+  /* margin: 1rem 0 0; */
+  color: #10316b;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+}
+
+.siteTitleWrapper {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.siteTitleLink {
+  text-decoration: none;
+  color: #10316b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.siteTitleLink h2 {
+  margin: 1rem 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerLogo {
+    display: none;
+  }
+  .headerWrapper {
+    padding-left: 1rem;
+  }
+}
