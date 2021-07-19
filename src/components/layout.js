@@ -76,7 +76,7 @@ const Layout = ({ children }) => {
             marginTop: `0`,
             margin: `0 auto`,
             // maxWidth: 960,
-            backgroundColor: `#19171a`,
+            backgroundColor: `#0E1214`,
             padding: `1rem`,
           }}
         >

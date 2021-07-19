@@ -11,7 +11,7 @@ const Header = ({ siteTitle, siteAuthor, siteLogo }) => (
   
   <header
     style={{
-      background: `#19171a`,
+      background: `#0E1214`,
       // backgroundImage: `url(${Background})`,
     }}
   >
