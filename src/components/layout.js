@@ -10,7 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Background from '../images/body-BG.jpg';
 
+import { Row, Col } from 'react-bootstrap';
 import Header from "./header"
+import Sidebar from "./sidebar"
 import FooterNav from "./footerNav"
 import "./layout.css"
 
@@ -52,6 +54,9 @@ const Layout = ({ children }) => {
           minHeight: `100vh`,
         }}
       >
+
+        <Row>
+          <Col xs={12} sm={12} md={8} lg={9} xl={9} >
         <main
           style={{
             margin: `0 auto`,
@@ -59,8 +64,12 @@ const Layout = ({ children }) => {
             // padding: `0 1.0875rem 1.45rem`,
             padding: `0`,
             backgroundColor: `rgba(255, 255, 255, 0.7)`,
-          }}
-        >{children}</main>
+        }}
+          >{children}
+        </main>
+          </Col>
+          <Sidebar/>
+        </Row>
       </div>
         <footer
           style={{

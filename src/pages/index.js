@@ -3,16 +3,16 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Slider from "../components/slider"
-// import JumbotronComponent from "../components/jumbotron"
+// import Slider from "../components/slider"
+import JumbotronComponent from "../components/jumbotron"
 
 const IndexPage = ({ data }) => (
   <Layout>
 
     <Seo title="Home" />
 
-    <Slider/>
-    {/* <JumbotronComponent/> */}
+    {/* <Slider/> */}
+    <JumbotronComponent/>
 
     <article
       style={{
