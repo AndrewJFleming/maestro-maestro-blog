@@ -12,6 +12,7 @@ import Background from '../images/body-BG.jpg';
 
 import { Row, Col } from 'react-bootstrap';
 import Header from "./header"
+import Footer from "./footer"
 import Sidebar from "./sidebar"
 import FooterNav from "./footerNav"
 import "./layout.css"
@@ -55,8 +56,8 @@ const Layout = ({ children }) => {
         }}
       >
 
-        <Row>
-          <Col xs={12} sm={12} md={8} lg={9} xl={9} >
+        <Row className="layoutRow">
+          <Col xs={12} sm={12} md={12} lg={8} xl={9} >
         <main
           style={{
             margin: `0 auto`,
@@ -71,22 +72,26 @@ const Layout = ({ children }) => {
           <Sidebar/>
         </Row>
       </div>
-        <footer
+      <Footer
+        siteAuthor={data.site.siteMetadata?.author} 
+      />
+        {/* <footer
           style={{
             marginTop: `0`,
             margin: `0 auto`,
-            // maxWidth: 960,
             backgroundColor: `#0E1214`,
             padding: `1rem`,
           }}
         >
-          <FooterNav/>
-          <div className="footerBottom">
-            © {new Date().getFullYear()},
-            {` `}
-            <a href="http://andrewjfleming.com/">{data.site.siteMetadata?.author}</a>
+          <div className="footerWrapper">
+            <FooterNav/>
+            <div className="footerBottom">
+              © {new Date().getFullYear()},
+              {` `}
+              <a href="http://andrewjfleming.com/">{data.site.siteMetadata?.author}</a>
+            </div>
           </div>
-        </footer>
+        </footer> */}
     </>
   )
 }

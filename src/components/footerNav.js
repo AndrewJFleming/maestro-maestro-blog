@@ -6,7 +6,7 @@
  import { useStaticQuery, graphql } from "gatsby"
  
  import UniversalLink from "../utils/UniversalLink"
- import * as style from "./footerNav.module.css"
+ import * as style from "./footer.module.css"
  
  const FooterNav = () => {
    const wpMenu = useStaticQuery(graphql`

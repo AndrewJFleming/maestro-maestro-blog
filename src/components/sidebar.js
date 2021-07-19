@@ -23,16 +23,8 @@ function Sidebar({}) {
 const image = data.file
 
   return (
-    <Col xs={12} sm={12} md={4} lg={3} xl={3}>
-        <div
-            style={{
-                margin: `2rem auto`,
-                padding: `1rem`,
-                backgroundColor: `#9C9B35`,
-            }}
-            className={style.sidebarWrapper}
-        >
-      
+    <Col xs={12} sm={12} md={12} lg={4} xl={3}>
+        <div className={style.sidebarWrapper}>
             <Img
                 className="d-block w-100"
                 fluid={image.childImageSharp.fluid}

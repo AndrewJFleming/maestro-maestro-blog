@@ -66,16 +66,6 @@ a:hover {
 footer a {
   color: #f17e7b;
 }
-.footerBottom {
-  color: white;
-  padding-left: 1rem;
-  max-width: 960px;
-  margin: 0 auto;
-}
-.footerBottom a:hover,
-.footerBottom a:focus{
-  color: #fcaaa7;
-}
 
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -667,6 +657,19 @@ nav .has-submenu:hover > ul a {
   bottom: 0;
   left: 0;
   box-shadow: 0px 0px 40px 40px rgba(0, 0, 0, 0.7);
+}
+
+.layoutRow {
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 0;
+  margin: 0 auto;
+  background-color: #0E1214;
+  padding: 1rem;
 }
 
 /*Stack columns on mobile*/

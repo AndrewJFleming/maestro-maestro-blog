@@ -1,0 +1,52 @@
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1080px;
+}
+
+.footerBottom {
+  color: white;
+  padding: 0.3rem 1rem;
+  max-width: 960px;
+  margin: 0;
+}
+.footerBottom a:hover,
+.footerBottom a:focus{
+  color: #fcaaa7;
+}
+
+.footernav {
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  max-width: 960px;
+}
+
+.footernav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footernav ul ul {
+  flex-direction: column;
+}
+
+.footernav li {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.footernav a {
+  padding: 0.3rem 1rem;
+  display: block;
+  color: hsla(0, 0%, 100%, 0.9);
+  border: 1px solid hsla(0, 0%, 100%, 0);
+}
+
+.footernav a:hover,
+.footernav a:focus {
+  border-color: hsla(0, 0%, 100%, 0.9);
+}

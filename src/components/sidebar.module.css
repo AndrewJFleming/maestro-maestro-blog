@@ -1,3 +1,9 @@
+.sidebarWrapper {
+  margin: 1rem auto;
+  /* padding: 1rem; */
+  /* background-color: #9C9B35; */
+}
+
 .sidebarWrapper h3 {
   margin-top: 1rem;
 }
