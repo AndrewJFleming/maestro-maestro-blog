@@ -13,7 +13,7 @@
      {
        allWpMenuItem(
          filter: {
-           menu: { node: { slug: { eq: "footer-menu" } } }
+           menu: { node: { slug: { eq: "sidebar-menu" } } }
            parentDatabaseId: { eq: 0 }
          }
        ) {

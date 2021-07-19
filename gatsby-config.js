@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Painter's Boot Camp`,
-    description: `Blog featuring articles about how to make better color and image compositions.`,
+    title: `Maestro Maestro`,
+    description: `Classic fine art commentary blog.`,
     author: `Andrew J Fleming`,
   },
   plugins: [
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `http://paintersbootcamp.local/graphql`,
+        url: `http://maestromaestrogatsbyblog.local/graphql`,
         develop: {
           hardCacheMediaFiles: true,
         },
