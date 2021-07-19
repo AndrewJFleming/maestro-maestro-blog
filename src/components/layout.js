@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
       file(name: {eq: "header-logo"}) {
         id
         childImageSharp {
-          fixed(width: 393, height: 125) {
+          fixed(width: 197, height: 63) {
           ...GatsbyImageSharpFixed
         }
         }
@@ -58,14 +58,17 @@ const Layout = ({ children }) => {
             maxWidth: 960,
             // padding: `0 1.0875rem 1.45rem`,
             padding: `0`,
-            backgroundColor: `#32241b`,
+            backgroundColor: `rgba(255, 255, 255, 0.7)`,
           }}
         >{children}</main>
+      </div>
         <footer
           style={{
-            marginTop: `2rem`,
+            marginTop: `0`,
             margin: `0 auto`,
-            maxWidth: 960,
+            // maxWidth: 960,
+            backgroundColor: `#19171a`,
+            padding: `1rem`,
           }}
         >
           <FooterNav/>
@@ -75,7 +78,6 @@ const Layout = ({ children }) => {
             <a href="http://andrewjfleming.com/">{data.site.siteMetadata?.author}</a>
           </div>
         </footer>
-      </div>
     </>
   )
 }

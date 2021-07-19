@@ -1,6 +1,6 @@
 .headerWrapper {
   margin: 0;
-  padding-bottom: 0;
+  padding: 1rem;
   display: flex;
   justify-content: flex-start;
 }
@@ -15,10 +15,6 @@
   font-family: 'Cabin', sans-serif;
 }
 
-.siteTitleWrapper {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 .siteTitleLink {
   text-decoration: none;
   color: #10316b;
@@ -31,7 +27,7 @@
 
 @media only screen and (max-width: 768px) {
   .headerLogo {
-    display: none;
+    /* display: none; */
   }
   .headerWrapper {
     padding-left: 1rem;
