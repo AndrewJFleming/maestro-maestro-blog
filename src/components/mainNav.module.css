@@ -29,13 +29,14 @@
 .mainnav a {
   padding: 0.3rem 1rem;
   display: block;
-  color: #10316b;
+  color: #f17e7b;
   border: 1px solid hsla(0, 0%, 100%, 0);
 }
 
 .mainnav a:hover,
 .mainnav a:focus {
-  border-color: hsla(218, 74%, 24%, 1);
+  color: #f17e7b;
+  border-color: hsla(0, 0%, 100%, 1);
 }
 .mainnav ul ul a:hover,
 .mainnav ul ul a:focus {

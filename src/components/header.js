@@ -11,7 +11,7 @@ const Header = ({ siteTitle, siteAuthor, siteLogo }) => (
   
   <header
     style={{
-      background: `#ece9e7`,
+      background: `#19171a`,
       // backgroundImage: `url(${Background})`,
     }}
   >
@@ -20,15 +20,6 @@ const Header = ({ siteTitle, siteAuthor, siteLogo }) => (
       <Link className={style.headerLogo} to="/">
         <Img fixed={siteLogo} alt={siteTitle}/>
       </Link>
-
-      <div className={style.siteTitleWrapper}>
-        <Link to="/" className={style.siteTitleLink}>
-            <h2>{siteTitle}</h2>
-        </Link>
-        <p className={style.siteAuthor}>
-          {siteAuthor}
-        </p>
-      </div>
 
       <MainNav/>
 

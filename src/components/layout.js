@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
       file(name: {eq: "header-logo"}) {
         id
         childImageSharp {
-          fixed(width: 270, height: 125) {
+          fixed(width: 393, height: 125) {
           ...GatsbyImageSharpFixed
         }
         }
