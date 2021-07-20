@@ -1,0 +1,9 @@
+.catUnorderedList {
+    list-style: none;
+    margin-left: 0;
+  }
+  .catUnorderedList li a {
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+  }
