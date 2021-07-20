@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .mainnav ul ul {
@@ -28,16 +29,16 @@
 }
 
 .mainnav a {
-  padding: 0.3rem 1rem;
+  padding: 0;
   display: block;
   color: black;
-  border: 1px solid hsla(0, 0%, 100%, 0);
+  text-decoration: none;
 }
 
 .mainnav a:hover,
 .mainnav a:focus {
   color: black;
-  border-color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 .mainnav ul ul a:hover,
 .mainnav ul ul a:focus {
@@ -45,6 +46,7 @@
 }
 
 .mainnav ul ul a {
+  padding: 0.3rem 1rem;
   color: white;
 }
 .mainnav ul ul a:hover {
