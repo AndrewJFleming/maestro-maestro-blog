@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import * as style from "./sidebar.module.css"
 // import SidebarNav from "./sidebarNav"
 import CatWidget from "./catWidget"
+import TagWidget from "./tagWidget"
 
 
 function Sidebar({}) {
@@ -37,6 +38,7 @@ const image = data.file
             </p>
             {/* <SidebarNav/> */}
             <CatWidget/>
+            <TagWidget/>
         </div>
     </Col>
   )
