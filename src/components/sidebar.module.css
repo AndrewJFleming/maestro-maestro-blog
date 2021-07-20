@@ -1,5 +1,5 @@
 .sidebarWrapper {
-  margin: 1rem auto;
+  margin: 1rem auto 2rem;
   /* padding: 1rem; */
   /* background-color: #9C9B35; */
 }
@@ -8,12 +8,9 @@
   margin-top: 1rem;
 }
 
-.catUnorderedList {
-  list-style: none;
-  margin-left: 0;
-}
-.catUnorderedList li a {
-  text-decoration: none;
-  font-family: 'Cabin', sans-serif;
-  font-weight: bold;
+/*Stack columns on mobile*/
+@media only screen and (max-width: 991px) {
+  .sidebar2nd {
+    text-align: center;
+  }
 }

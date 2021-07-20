@@ -2,8 +2,8 @@
     list-style: none;
     margin-left: 0;
   }
-  .tagUnorderedList li a {
-    text-decoration: none;
-    font-family: 'Cabin', sans-serif;
-    font-weight: bold;
+  .tagUnorderedList a {
+    /* text-decoration: none; */
+    /* font-family: 'Cabin', sans-serif; */
+    /* font-weight: bold; */
   }
