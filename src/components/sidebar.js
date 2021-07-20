@@ -1,9 +1,10 @@
 import * as React from "react"
 import { Col } from 'react-bootstrap'
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import * as style from "./sidebar.module.css"
 import SidebarNav from "./sidebarNav"
+import CatWidget from "./catWidget"
 
 
 function Sidebar({}) {
@@ -35,6 +36,7 @@ const image = data.file
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
             </p>
             <SidebarNav/>
+            <CatWidget/>
         </div>
     </Col>
   )
