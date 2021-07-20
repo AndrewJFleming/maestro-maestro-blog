@@ -21,7 +21,7 @@ const categories = data.allWpCategory.nodes
     <div style={style.catWidgetWrapper}>
         <h3>Categories</h3>
         <ul className={style.catUnorderedList}>
-            {categories.map((cat, index) => (
+            {categories.map((cat, index) => index < 5 && (
                 <li>
                     <Link key={index} to={cat.link}>
                         {cat.name}
