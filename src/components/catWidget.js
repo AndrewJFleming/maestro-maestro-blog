@@ -18,7 +18,7 @@ const CatWidget = () => {
 const categories = data.allWpCategory.nodes
 
   return (
-    <div style={style.catWidgetWrapper}>
+    <div className={style.catWidgetWrapper}>
         <h3>Categories</h3>
         <ul className={style.catUnorderedList}>
             {categories.map((cat, index) => index < 5 && (
