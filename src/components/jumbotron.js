@@ -14,7 +14,7 @@ function JumbotronComponent({  }) {
             childImageSharp {
               fluid(maxWidth: 1360, duotone: {
                 highlight: "#aab6cc",
-                shadow: "#0E1214"
+                shadow: "#000"
               } ) {
                 ...GatsbyImageSharpFluid
               }
