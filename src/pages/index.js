@@ -6,6 +6,9 @@ import Seo from "../components/seo"
 // import Slider from "../components/slider"
 import JumbotronComponent from "../components/jumbotron"
 import FeatCats from "../components/featCats"
+// import FeatCats2 from "../components/featCats2"
+
+let randomNumber =  "#f00e2e";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -25,6 +28,7 @@ const IndexPage = ({ data }) => (
       <div dangerouslySetInnerHTML={{ __html: data.wpPage.content }} />
 
       <FeatCats/>
+      {/* <FeatCats2/> */}
 
     </article>
 

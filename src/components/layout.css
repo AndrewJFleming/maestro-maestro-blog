@@ -687,8 +687,9 @@ footer {
   }
 }
 
+/* Styles for homepage featured category widget */
 .featCatBG {
-  margin: 0 10px;
+  margin: 0 10px 5px;
   height: 130px;
   padding: 0;
 }
@@ -709,6 +710,16 @@ footer {
   text-transform: uppercase;
 }
 
+#featCatBG0 {
+  background-image: url(../images/featCatImages/featCat0.jpg);
+}
+#featCatBG1 {
+  background-image: url(../images/featCatImages/featCat1.jpg);
+}
+#featCatBG2 {
+  background-image: url(../images/featCatImages/featCat2.jpg);
+}
+
 .featCatOverlay {
   display: flex;
   justify-content: center;
@@ -722,14 +733,4 @@ footer {
 .featCatOverlay:hover {
   background-color: rgba(0, 0, 0, 0.7);
   transition: 0.3s;
-}
-
-.featCatBG0 {
-  background-image: url(../images/featCatImages/featCat1.jpg);
-}
-.featCatBG1 {
-  background-image: url(../images/featCatImages/featCat2.jpg);
-}
-.featCatBG2 {
-  background-image: url(../images/featCatImages/featCat3.jpg);
 }

@@ -18,7 +18,7 @@ export default function FeatCats() {
     return (
         <Row>
             {data.allWpCategory.nodes.map((cat, index) => index < 3 && (
-                <Col className={`featCatBG${index} featCatBG`} >
+                <Col id={`featCatBG${index}`} className="featCatBG">
                     <Link key={index} to={cat.link}>
                         <div className="featCatOverlay">
                             <h4>{cat.name}</h4>

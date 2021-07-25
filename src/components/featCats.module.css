@@ -4,6 +4,27 @@
     height: 150px;
 }
 
-.featCatOverlay {
-    background-color: rgba(0, 0, 0, 0.603);
+.featCatCol {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 10px;
+    height: 130px;
+    background-color: black;
+}
+
+.featCatInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+  }
+
+.featCatCol h4 {
+    margin-bottom: 0;
+    color: white;
+    text-transform: uppercase;
 }
