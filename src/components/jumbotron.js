@@ -12,7 +12,10 @@ function JumbotronComponent({  }) {
         node {
           localFile {
             childImageSharp {
-              fluid(maxWidth: 1360) {
+              fluid(maxWidth: 1360, duotone: {
+                highlight: "#aab6cc",
+                shadow: "#0E1214"
+              } ) {
                 ...GatsbyImageSharpFluid
               }
             }
